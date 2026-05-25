@@ -49,7 +49,7 @@ git 历史效果：
 | 组件 | 选型 |
 |------|------|
 | 语言 | Python 3.10+ |
-| LLM | Ollama 本地，模型 `gpt-oss-120b` |
+| LLM | Ollama 本地，模型 `gpt-oss:120b` |
 | Ollama API | `http://localhost:11434/api/generate` |
 | git 日期设定 | `GIT_AUTHOR_DATE` + `GIT_COMMITTER_DATE` 环境变量 |
 | LLM 调用次数 | 每道题**恰好 2 次**：翻译 1 次 + 题解 1 次 |
@@ -171,7 +171,7 @@ Example 2:
 ### 7.1 `config.py`
 
 ```python
-OLLAMA_MODEL  = "gpt-oss-120b"
+OLLAMA_MODEL  = "gpt-oss:120b"
 OLLAMA_URL    = "http://localhost:11434/api/generate"
 DATA_FILE     = "leetcode_problems.json"
 SOLUTIONS_DIR = "solutions"
