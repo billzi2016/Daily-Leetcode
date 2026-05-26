@@ -1,7 +1,13 @@
+_MAX_EXAMPLE_LEN = 400
+
+
 def _fmt_examples(examples: list) -> str:
     parts = []
     for ex in examples:
-        parts.append(f"示例 {ex['example_num']}:\n{ex['example_text'].strip()}")
+        text = ex["example_text"].strip()
+        if len(text) > _MAX_EXAMPLE_LEN:
+            text = text[:_MAX_EXAMPLE_LEN] + "\n... (已截断)"
+        parts.append(f"示例 {ex['example_num']}:\n{text}")
     return "\n\n".join(parts) if parts else "无"
 
 
