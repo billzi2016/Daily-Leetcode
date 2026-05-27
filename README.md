@@ -74,7 +74,7 @@ solve #2: Add Two Numbers  2018-06-05T09:12:55
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `OLLAMA_MODEL` | `gpt-oss:120b` | Ollama model name |
-| `OLLAMA_URL` | `http://localhost:11434/api/generate` | Ollama API endpoint |
+| `OLLAMA_URL` | `http://10.54.79.119:11434/api/generate` | Ollama API endpoint (old: localhost) |
 | `OLLAMA_TIMEOUT` | `300` | Request timeout in seconds |
 
 ---

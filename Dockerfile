@@ -16,6 +16,7 @@ RUN git config --global user.email "leetcode@daily.local" \
     && git config --global user.name "Daily LeetCode"
 
 # Point Ollama at the host machine
-ENV OLLAMA_URL=http://host.docker.internal:11434/api/generate
+# ENV OLLAMA_URL=http://host.docker.internal:11434/api/generate
+ENV OLLAMA_URL=http://10.54.79.119:11434/api/generate
 
 CMD ["python", "main.py", "--all"]
