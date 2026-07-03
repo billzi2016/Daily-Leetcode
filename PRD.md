@@ -42,6 +42,8 @@ git 历史效果：
 | 英文原版 | 直接从 JSON 字段拼装，**不经过 LLM** |
 | 传给 LLM | 按字段提取后结构化注入 prompt，**不做整体序列化** |
 
+- **题目 JSON**：`leetcode_problems.json`，来源 [neenza/leetcode-problems](https://github.com/neenza/leetcode-problems)
+
 ---
 
 ## 四、技术栈

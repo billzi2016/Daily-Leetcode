@@ -9,6 +9,12 @@ Each problem gets its own Markdown file with:
 
 ---
 
+## Data Source
+
+- **题目 JSON**：`leetcode_problems.json`，来源 [neenza/leetcode-problems](https://github.com/neenza/leetcode-problems)
+
+---
+
 ## Prerequisites
 
 - Python 3.10+
