@@ -3,3 +3,7 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+
+# Local LeetCode problem data
+leetcode_problems.json
+merged_problems.json
